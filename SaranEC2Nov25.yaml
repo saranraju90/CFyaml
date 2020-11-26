@@ -1,0 +1,7 @@
+Resources:
+  SaranEC2Nov25:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-09fd4474cefb24a0a
+      InstanceType: t2.micro
+      AvailabilityZone: eu-west-1a
